@@ -1,0 +1,23 @@
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+  display: grid;
+  grid-template-areas:
+  "header header header"
+  "sidebar main ad"
+  "footer footer footer";
+}
+
+#header {
+  grid-area: header;
+}
+#sidebar {
+  grid-area: sidebar;
+  color: #FFFFFF
+}
+#ad-block {
+  grid-area: ad;
+}
+#footer {
+  grid-area: footer;
+}
