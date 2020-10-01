@@ -1,5 +1,5 @@
 body {
-    background-color: #00000F;
+    background-color: #000000;
     display: grid;
     grid-template-columns: 20em 1fr 20em;
     grid-template-areas: 
